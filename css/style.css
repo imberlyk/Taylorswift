@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Jakarta';
+    src: url('assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jakarta';
+    src: url('assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url("../font/BodoniModa.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url("../font/Bodoni-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+
+
+body {
+
+    
+	background: #181818;
+	animation: Color 4s linear infinite;
+	-webkit-animation: Color 60s ease-in-out infinite;
+	background-image: url(../img/"1989.png");
+	background-repeat: repeat-y;
+  }
+  
+  @keyframes Color{
+	0%{
+	  color:#1ED760;
+	}
+	
+	20%{
+		color:#36b9a5;
+
+	}
+
+
+	40%{
+		color:#E72381;
+
+	}
+	100%{
+	  color:#E72381;
+	}
+	
+}
+
+.container {
+
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+	z-index: 1;
+    padding: 120px 80px; /* top padding, side padding */
+   
+}
+span {
+transition: all 0.9s ease;
+			}
+span:hover { text-shadow: 0 0 5px #09ff00;
+			transition: all 0.4s ease;
+			cursor: pointer; }
+		/* Text styles */
+		h1 {
+			font-family: 'Bodoni';
+			font-style: italic;
+			font-size: 64px;
+			line-height: 1em;
+			font-weight: 200;
+			margin-bottom: 30px;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h2 {
+			font-family: 'Bodoni';
+			font-style: italic;
+			font-size: 44px;
+			line-height: 1em;
+			font-weight: 200;
+			margin-bottom: 30px;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#titel{
+			font-family: 'Bodoni';
+			font-style: normal;
+			font-size: 34px;
+		}
+
+		.review {
+			font-family: 'Bodoni';
+			font-style: italic;
+			font-size: 30px;
+			line-height: 1em;
+			font-weight: 200;
+			margin-bottom: 30px;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 40px;
+		}
+		h3 {
+			font-size: 24px;
+			line-height: 1em;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			font-weight: 500;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p {
+			font-family: sans-serif;
+			margin-bottom: 20px;
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 1.5em;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		a {
+			color: black;
+		}
+		a:hover {
+			opacity: .5;
+		}
+		sup {
+			font-size: .6em;
+			line-height: 0;
+			font-weight: 800;
+		}
+		sup a {
+			text-decoration: none;
+		}
+		sup a:hover {
+			opacity: .5;
+		}
+
+		/* Image styles (for your charts!) */
+		figure {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			margin-left: 60px;
+			
+		}
+		img {
+			display: block;
+			width: 100%;
+		}
+		/* Image captions */
+		figcaption {
+			font-size: 14px;
+			font-style: italic;
+			font-weight: 350;
+			margin-top: 20px;
+			margin-bottom: 40px;
+			opacity: .5;
+			max-width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/* Endnotes */
+		.endnotes {
+			padding-top: 20px;
+			border-top: 1px solid black;
+			margin-top: 80px;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 1.4em;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			list-style: none;
+		}
+		.endnotes li {
+			margin-top: 5px;
+			font-weight: 350;
+		}
+
+
+	
+
+
+
