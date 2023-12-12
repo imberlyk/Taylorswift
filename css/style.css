@@ -191,8 +191,8 @@ span:hover { text-shadow: 0 0 5px #09ff00;
 			font-weight: 350;
 		}
 		
-		audio{
-			padding-left: 30vh;
+		.audio{
+			padding-left: 10vh;
 			color:#E72381;
 		}
 
